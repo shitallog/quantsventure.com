@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quants Venture - Stock Broking</title>
+	<!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comme:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/favicon2.png" sizes="180x180">
+    <link rel="icon" href="assets/img/favicon2.png">
+</head>
+<body class="bg-light">
+    <nav id="navbar-fixed" class="navbar navbar-expand-xl bg-white py-0" data-bs-theme="light">
+        <div class="container">
+            <a class="navbar-brand" href="./">
+                <img src="assets/img/logo2.png" class="img-fluid" width="180">
+            </a>
+            <button class="navbar-toggler btn text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="bi bi-list fs-1"></span>
+    			</button>
+            <div class="collapse navbar-collapse mb-3 mb-lg-0" id="main-navigation">
+                <ul class="navbar-nav my-3 my-lg-0 ms-auto navbar-nav-scroll" style="--bs-scroll-height: 250px;">
+
+					<li class="nav-item"><a class="nav-link px-2 px-lg-3 py-2 py-lg-3 mb-2 mb-lg-0"
+                            aria-current="page" href="index.php">Home</a></li>
+							<li class="nav-item "><a class="nav-link px-2 px-lg-3 py-2 py-lg-3 mb-2 mb-lg-0" href="packages.php">Packages</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-2 px-lg-3 py-2 py-lg-3 mb-2 mb-lg-0"
+                            href="wealth-management-services.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Wealth Management Services</a>
+                        <ul
+                            class="dropdown-menu text-bg-light text-capitalize p-0 my-3 my-lg-0 shadow-sm rounded-0 list-group-flush">
+                            <li><a class="dropdown-item py-2"
+                                    href="wealth-management-services.html#equity-derivatives">Equity (Derivatives)</a></li>
+                            <li><a class="dropdown-item py-2" href="wealth-management-services.html#currency">Currency</a>
+                            </li>
+                            <li><a class="dropdown-item py-2" href="wealth-management-services.html#commodity">Commodity</a>
+                            </li>
+                            <li><a class="dropdown-item py-2" href="wealth-management-services.html#corporate-fd">Corporate
+                                    FD</a></li>
+                            <li><a class="dropdown-item py-2" href="wealth-management-services.html#bonds">Bonds</a></li>
+                            <li><a class="dropdown-item py-2" href="wealth-management-services.html#mutual-funds">Mutual
+                                    Funds</a></li>
+                            <li><a class="dropdown-item py-2" href="wealth-management-services.html#insurance">Insurance</a>
+                            </li>
+                            <li><a class="dropdown-item py-2"
+                                    href="wealth-management-services.html#wealth-calculator">Wealth Calculator</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-2 px-lg-3 py-2 py-lg-3 mb-2 mb-lg-0"
+                            href="portfolio-management-services.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Portfolio Management Services</a>
+                        <ul
+                            class="dropdown-menu text-bg-light text-capitalize p-0 my-3 my-lg-0 shadow-sm rounded-0 list-group-flush">
+                            <li><a class="dropdown-item py-2"
+                                    href="portfolio-management-services.html#individual-portfolio-tracking">Individual
+                                    Portfolio Tracking</a></li>
+                            <li><a class="dropdown-item py-2" href="portfolio-management-services.html#hni-services">HNI
+                                    Services</a></li>
+                            <li><a class="dropdown-item py-2"
+                                    href="portfolio-management-services.html#portfolio-clinic">Portfolio Clinic</a></li>
+                            <li><a class="dropdown-item py-2" href="portfolio-management-services.html#day-to-day-guidance">Day
+                                    to Day Guidance</a></li>
+                            <li><a class="dropdown-item py-2"
+                                    href="portfolio-management-services.html#research-support-on-client-recommendation">Research
+                                    Support on Client Recommendation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link px-2 px-lg-3 py-2 py-lg-3 mb-2 mb-lg-0"
+                            href="contact-us.php">Contact</a></li>
+                </ul>
+                <a class="btn btn-dark fw-light px-2 px-md-3" href="https://ekyc.motilaloswal.com/Partner/?diyid=38aeb2f3-7b00-45d0-962b-3ad4818e5c94" target="_blank">Demat A/C
+                    Opening</a>
+            </div>
+        </div>
+    </nav>
+
+	<!-- Sticky header -->
+
+	<section id="bank-details" class="section-padding-50">
+		<div class="container">
+			<div class="row gy-5 justify-content-center">
+				<div class="col-xxl-12">
+					<div class="section-title text-center">
+						<h3 class="fs-1 text-uppercase fw-bold">Terms and Conditions</h3>
+					</div>
+				</div>
+				<div class="col-xxl-11 col-xl-11 col-lg-11 col-md-12">
+					<marquee>
+                        Investment in stock market is subject to market risk. We DO NOT offer any guaranteed profit services or Fixed Return services.
+					</marquee>
+					<!-- <marquee>
+						Investing and Trading in stock market is risky. It Involves both profit and loss, Due to leverage both profit and loss are exaggerated, our research service gives research alerts for trading ideas in which both target and stop loss is mentioned, however execution of trade is solely the responsibility of the client. We DO NOT provide any trade execution services. All our research alerts are to be considered only as a reference tool and clients should not consider our research alerts as Personal Investment/Trading Advice in any condition. We DO NOT take any responsibility for any losses that the User may incur.
+					</marquee> -->
+				</div>
+				<div class="col-xxl-11 col-xl-11 col-lg-11 col-md-12">
+					<p class="lead lh-lg">The term Stock Bazaar Expert (or “us” or “we”) refers to the owners, managers of the website Stock Bazaar Expert and/or Stock Bazaar Expert firm whose office is located at Stock Bazaar Expert, Nerul, Navi Mumbai: 400710. Maharashtra and owns and manages the website Stock Bazaar Expert (“the Website”). Disclosures under the provisions of SEBI (Research Analysts) Regulations 2014 (Regulations): <!--<a href="registered-research-analyst.html">Registered Research Analyst</a> --> (“SM” or “Research Entity”) is regulated by the Securities and Exchange Board of India (“SEBI”) and is licensed to carry on the business of share trading research providing service and related activities. The term “you” refers to the user or viewer of our website. By visiting our website/ mobile application you are agreeing to be bound by the following terms and conditions and all other terms and conditions of Stock Bazaar Expert firm. We may change these terms and conditions at any time. Your continued use of our website and/or our mobile application means that you accept any new or modified terms and conditions that we come up with. Please re-visit the `Terms and Conditions’ link at our site from time to time to stay abreast of any changes that we may introduce. The term Stock Bazaar Expert firm (Stock Bazaar Expert) is used through this entire Terms and Conditions document to refer to the website and/or our mobile application, its owners/proprietor and the employees and associates of the owner. No warranties This Website is provided “as is” without any representations or warranties, express or implied. Stock Bazaar Expert firm and its owner, director, employees, affiliates and associates, make no representations or warranties in relation to the Website or the information and materials provided on the Website. This Website will be constantly available, or available at all; or the information on this Website is believed to be complete, true, accurate or non-misleading.</p>
+
+					<p class="lead fw-bold lh-lg">Other disclaimers: –</p>
+
+					<p class="lead lh-lg">Without prejudice to the generality of the foregoing paragraph, Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates state that: The information analysis given in the research recommendation or research report is purely an interpretation / view of the author/research analyst and Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and any of its representatives shall not be liable or responsible in any manner whatsoever for the trades executed by the customers on the basis of this recommendation or reports. Any comparative indices that are made available on the Website are mere indicators and are in no manner meant to reflect or influence the buying decision of the customers. Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and or the Stock Bazaar Expert firm do not in any manner whatsoever verify or vouch for the accuracy or authenticity of the results. While doing fund transfer, the respective bank shall be responsible for transfer of funds during payment for research services on the Website and Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and or the Stock Bazaar Expert firm shall not be responsible or liable in any manner whatsoever for the late payments or losses incurred on account of the same Nothing on this website constitutes, or is meant to constitute, advice of any kind. If you require advice in relation to any investments, legal, financial, medical matters or any other matters, you should consult an appropriate professional Disclaimer for reports:</p>
+
+					<p class="lead lh-lg">The documents/reports/research analysis available on the Website or published/produced by Stock Bazaar Expert does not constitute an offer or solicitation for the purchase or sale of any Security / financial instrument or as an official confirmation of any transaction. Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and or the Stock Bazaar Expert firm shall not be in any way responsible for any loss or damage that may arise to any person from any inadvertent error in the information contained in any of the research recommendation or research report/alert. The documents/reports/research analyses are provided for assistance only and is not intended to be and must not alone be taken as the basis for any decision. The user assumes the entire risk of any use made of this information. This information is strictly confidential and is being furnished to you solely for your information. This information should not be reproduced or redistributed or passed on directly or indirectly in any form to any other person or published, copied, in whole or in part, for any purpose. The distribution of this document in certain jurisdictions may be restricted by law, and persons in whose possession this document comes, should inform themselves about and observe, any such restrictions. The information given in this document is as of the date and time of the documents/reports/research analysis and there can be no assurance that future results or events will be consistent with this information. The information is subject to change without any prior notice. Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and or the Stock Bazaar Expert firm reserves the right to make modifications and alterations to this statement as may be required from time to time. However, Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and /or the Stock Bazaar Expert are under no obligation to update or keep the information current. Neither Stock Bazaar Expert firm nor any of its owners, directors, employees, agents or representatives shall be liable for any damages whether direct, indirect, special or consequential including lost revenue or lost profits or lost capital that may arise from or in connection with the use of the information. For data reference to any third party in this material no such party will assume any liability for the same. All layout, design, original artwork, concepts and other Intellectual Properties, remains the property and copyright of Stock Bazaar Expert firm and may not be used in any form or for any purpose whatsoever by any party without the express written permission of the copyright holders. This is a private website owned by Stock Bazaar Expert firm. Unauthorized scanning of vulnerabilities and exploitation of the same is strictly prohibited. If you have been found to do so, Stock Bazaar Expert firm may bring Civil and/or Criminal action and/or legal proceedings against you which shall be entirely at your costs and consequences.</p>
+
+					<p class="lead fw-bold lh-lg">Limitations of liability: –</p>
+
+					<p class="lead lh-lg">Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and or the Stock Bazaar Expert firm will not be liable to you (whether under the law of contract, the law of torts or otherwise under any other law) in relation to the contents of, or use of, or otherwise in connection with, this Website:</p>
+
+					<p class="lead lh-lg">For any indirect, special or consequential loss; or for any business losses, loss of revenue, income, profits or capital or anticipated savings, loss of contracts or business relationships, loss of reputation or goodwill, or loss or corruption of information or data.</p>
+
+					<p class="lead lh-lg">These limitations of liability apply even if Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and or the Stock Bazaar Expert have been expressly advised of the potential loss.</p>
+
+					<p class="lead fw-bold lh-lg">Reasonableness: –</p>
+
+					<p class="lead lh-lg">By using this Website, you agree that the exclusions and limitations of liability set out in this website disclaimer are reasonable. If you do not think they are reasonable, you must not use this Website.</p>
+
+					<p class="lead fw-bold lh-lg">Other Parties: –</p>
+
+					<p class="lead lh-lg">You accept that Stock Bazaar Expert firm has an interest in limiting the personal liability of its owner, officers, employees, directors, affiliates and group companies. You agree that you will not bring any claim personally against Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and or the Stock Bazaar Expert firm in respect of any losses you suffer in connection with the website.</p>
+
+					<p class="lead lh-lg">Without prejudice to the foregoing paragraph, you agree that the limitations of warranties and liability set out in this website disclaimer will protect Stock Bazaar Expert firm and its owner, directors, employees, affiliates and associates and or the Stock Bazaar Expert firm.</p>
+
+					<p class="lead fw-bold lh-lg">Unenforceable Provisions: –</p>
+
+					<p class="lead lh-lg">If any provision of this Website disclaimer is, or is found to be, unenforceable under applicable law, that will not affect the enforceability of the other provisions of this Website disclaimer.</p>
+
+					<p class="lead fw-bold lh-lg">Jurisdiction: –</p>
+
+					<p class="lead lh-lg">Your use of this website and any dispute arising out of such use of the website is subject to the laws of India. You hereby consent to the exclusive jurisdiction and venue of courts in Mumbai or Navi Mumbai, Maharashtra, India in all disputes arising out of or relating to the use of this Website. Use of this website is unauthorized in any jurisdiction that does not give effect to all provisions of these terms and conditions, including without limitation this paragraph.</p>
+
+					<p class="lead fw-bold lh-lg">PRIVACY POLICY: –</p>
+
+					<p class="lead lh-lg">Your privacy is important to Stock Bazaar Expert. This privacy statement provides information about the personal information that Stock Bazaar Expert collects, and the ways in which Stock Bazaar Expert uses that personal information.</p>
+
+					<p class="lead lh-lg">Personal information collection</p>
+
+					<p class="lead lh-lg">Stock Bazaar Expert may collect and use the following kinds of personal information:</p>
+
+					<p class="lead lh-lg">Information about your use of this website</p>
+
+					<p class="lead lh-lg">Information that you provide using for the purpose of registering with Stock Bazaar Expert (“the Website”).</p>
+
+					<p class="lead lh-lg">Information about transactions carried out over this Website.</p>
+
+					<p class="lead lh-lg">Information that you provide for the purpose of subscribing to the Website services.</p>
+
+					<p class="lead lh-lg">Any other information that you send to Stock Bazaar Expert.</p>
+
+					<p class="lead lh-lg">Using personal information.</p>
+
+					<p class="lead lh-lg">Stock Bazaar Expert may use your personal information to: –</p>
+
+					<ul class="list-group list-group-numbered lead lh-lg">
+						<li class="list-group-item border-0 bg-transparent">Administer this Website.</li>
+						<li class="list-group-item border-0 bg-transparent">Personalize the Website for you.</li>
+						<li class="list-group-item border-0 bg-transparent">Enable your access to and use of the Website services.</li>
+						<li class="list-group-item border-0 bg-transparent">Publish information about you on the Website.</li>
+						<li class="list-group-item border-0 bg-transparent">Send to your products that you purchase.</li>
+						<li class="list-group-item border-0 bg-transparent">Supply to your services that you purchase.</li>
+						<li class="list-group-item border-0 bg-transparent">Send you statements and invoices.</li>
+						<li class="list-group-item border-0 bg-transparent">Collect payments from you and</li>
+						<li class="list-group-item border-0 bg-transparent">Send you marketing communications</li>
+					</ul>
+
+					<p class="lead lh-lg">Where Stock Bazaar Expert may disclose your personal information to its employees/agents or sub-contractors for the above purposes, the agent or sub-contractor in question will be obligated to use that personal information in accordance with the terms of this privacy statement. Stock Bazaar Expert shall or its agents and/or sub-contractors may use your personal information to make contact with you for promotion of products/schemes/Services etc. of Stock Bazaar Expert or of its partners from time to time. You hereby agree and understand that such promotional calls shall be made to you unless you specifically convey to Stock Bazaar Expert to not call you further for such promotions, schemes, services etc.</p>
+
+					<p class="lead lh-lg">In addition to the disclosures reasonably necessary for the purposes identified elsewhere above, Stock Bazaar Expert may disclose your personal information to the extent that it is required to do so by law, in connection with any legal proceedings or prospective legal proceedings, and in order to establish, exercise or defend its legal rights.</p>
+
+					<p class="lead fw-bold lh-lg">Securing Your Data: –</p>
+
+					<p class="lead lh-lg">Stock Bazaar Expert will take reasonable technical and organizational precautions to prevent the loss, misuse or alteration of your personal information.</p>
+
+					<p class="lead lh-lg">Stock Bazaar Expert will store all the personal information you provide on its secure servers.</p>
+
+					<p class="lead lh-lg">Information relating to electronic transactions entered into via this Website will be protected by encryption technology.</p>
+
+					<p class="lead fw-bold lh-lg">Cross-border data transfers: –</p>
+
+					<p class="lead lh-lg">Information that Stock Bazaar Expert collects may be stored and processed in and transferred between any of the countries in which Stock Bazaar Expert operates (if at all) to enable the use of the information in accordance with this privacy policy.</p>
+
+					<p class="lead lh-lg">In addition, personal information that you submit for publication on the website will be published on the internet and may be available around the world. You agree to such cross-border transfers of personal information.</p>
+
+					<p class="lead fw-bold lh-lg">Updating this statement: –</p>
+
+					<p class="lead lh-lg">Stock Bazaar Expert may update this privacy policy by posting a new version on this Website. You should check this page occasionally to ensure you are familiar with any changes.</p>
+
+					<p class="lead fw-bold lh-lg">Other websites: –</p>
+
+					<p class="lead lh-lg">This website contains links to other websites. Stock Bazaar Expert is/are not responsible for the privacy policies or practices of any third party.</p>
+
+					<p class="lead lh-lg pb-5">If you have any questions about this privacy policy or treatment of your personal information, please write to by email: <a href="mailto:compliance@stockbazaarexpert.in">compliance@stockbazaarexpert.in</a></p>
+
+					<p class="lead fw-bold lh-lg">PRIVACY POLICY: –</p>
+
+					<p class="lead lh-lg">By visiting our site <a href="https://www.stockbazaarexpert.in">“www.stockbazaarexpert.in”</a> (“Website”) you (“you” refers to the user or viewer of the Website) are agreeing to be bound by the following terms and conditions and the Privacy Policy on the Website. We may change these terms and conditions at any time. By using this Website or any utility in this web site directly or indirectly you abide by all terms and conditions mentioned herein and that you accept any new or modified terms and conditions that we come up with. If you do not agree to any of the terms mentioned herein, you should exit the site immediately.</p>
+
+					<p class="lead fw-bold lh-lg">REGISTRATION / ENROLMENT AND TERMINATION: –</p>
+
+					<p class="lead lh-lg">By registering for this facility you understand that Stock Bazaar Expert firm and its owner, directors, employees and associates (hereinafter singly and jointly referred to as “Stock Bazaar Expert”) reserves the right, in its sole discretion, to deny you access to this Website or any portion thereof without notice for the following reasons (a) any unauthorized access or use by you (b) if you assign or transfer (or attempt the same) any rights granted to you under this User Agreement or any other agreement that you may have entered with Stock Bazaar Expert; (c) if you violate any of the other terms and conditions of this User Agreement. Termination or cancellation of this Agreement shall not affect any right or relief to which Stock Bazaar Expert may be entitled, at law or in equity. Upon termination of this User Agreement, all rights granted to you will terminate and revert to Stock Bazaar Expert.</p>
+
+					<p class="lead fw-bold lh-lg">LICENSE: –</p>
+
+					<p class="lead lh-lg">Stock Bazaar Expert, hereby grants you a limited, non-exclusive, non-assignable and non-transferable license to access to the Website provided and expressly conditioned upon your agreement that all such access and use shall be governed by all of the terms and conditions set forth in this User Agreement.</p>
+
+					<p class="lead fw-bold lh-lg">SECURITY: –</p>
+
+					<p class="lead lh-lg">Unauthorized use of this Website and systems, including, but not limited to, unauthorized entry into Stock Bazaar Expert’s systems, online accounts, Client Desks, Partners & Distributor Desks, misuse of passwords or misuse of any other information, is strictly prohibited. You may not use this Website in any manner that could damage, disable, overburden, or impair this Website or service or interfere with any other party’s use and enjoyment of this Website or service. You may not attempt to gain unauthorized access to any of our site or service and computer systems or networks connected to it, through hacking. You agree that you will not engage in any activities related to this web site that are contrary to the applicable laws or regulations in force. The users have the primary responsibility to keep their login-ids and passwords secure and to not display such crucial, important information to any third person. In case of any such leak of login-id & password, Stock Bazaar Expert cannot be responsible for the loss of such information, or for any act, omission, damages, claims, loss of personal information, etc. arising from the use of such leakage of login-ids and passwords. Stock Bazaar Expert may, at its own discretion, use certain technology on its web sites to collect information from visitors and may compile aggregate statistical information about how visitors use its web sites, including information relating to the frequency of visits, the average length of visits, which pages are viewed during a visit. No individually identifiable information is collected for this purpose and Stock Bazaar Expert does not monitor individual visitor behavior.</p>
+
+					<p class="lead fw-bold lh-lg">SERVICE DELAYS: –</p>
+
+					<p class="lead lh-lg">Stock Bazaar Expert reserves its right, in its sole discretion, without any obligation and without any notice requirement, to change, improve or correct the information, materials and descriptions on this web site and to suspend and/or deny access to this web site for scheduled or unscheduled maintenance, upgrades, improvements or corrections. Stock Bazaar Expert may discontinue or change any service described in or offered on this web site or in any modules or parts thereof at any time if deemed fit and proper. Stock Bazaar Expert (including its owner, directors, employees, affiliates, agents, representatives or subcontractors) shall not be liable for any loss or liability resulting, directly or indirectly, from delays or interruptions due to electronic or mechanical equipment failures, telephone interconnect problems, defects, weather, strikes, walkouts, fire, riots, armed conflicts, acts of war, pandemic situations or other like causes. Stock Bazaar Expert shall have no responsibility to provide you access to the Website while interruption of the Website is due to any such cause shall continue.</p>
+
+					<p class="lead fw-bold lh-lg">PRODUCTS OFFERED ON THE WEBSITE: –</p>
+
+					<p class="lead lh-lg">With respect to the data from Capital Markets and the products made available on the Website by Stock Bazaar Expert including but not limited to stocks, reports etc.</p>
+
+					<p class="lead fw-bold lh-lg">YOU HEREBY AGREE THAT: –</p>
+
+					<p class="lead lh-lg">You confirm that the details provided by you are true and correct.</p>
+
+					<p class="lead lh-lg">You hereby declare that the amount being transferred by you for the purpose of subscribing to any of Stock Bazaar Expert research services is derived through legitimate sources and is not held or designed for the purpose of contravention of any Act, Rules, Regulations or any statute or legislation or any other applicable laws or any Notifications, Directions issued by any governmental, regulatory or statutory authority/Lies from time to time.</p>
+
+					<p class="lead lh-lg">You agree that Stock Bazaar Expert sources the data from the Capital Markets and is/are therefore not responsible and/or should be held liable by you for the correctness or accuracy of any information received in that regard from the Capital Markets.</p>
+
+					<p class="lead lh-lg">You agree that the National Stock Exchange (“NSE”) data displayed on the site is always delayed by five (5) minutes whereas the Bombay Stock Exchange (“BSE”) data displayed on the site is delayed by fifteen (15) minutes; and technical glitches if any, may further delay the data at times and that you will not hold Stock Bazaar Expert responsible for any such delays in receiving the data / feeds from time to time.</p>
+
+					<p class="lead lh-lg">You agree that the authenticity of the data received from Capital Markets is not guaranteed by Stock Bazaar Expert and that Stock Bazaar Expert shall assume no responsibility or liability in any manner whatsoever for such data and your subsequent trade, action etc. acting upon such data.</p>
+
+					<p class="lead fw-bold lh-lg">LIABILITY: –</p>
+
+					<p class="lead lh-lg">You agree that, Stock Bazaar Expert (Including its owner , officers, directors, employees, affiliates, group companies agents, representatives or subcontractors) shall not be, in any event, be liable, whether in contract or tort, for any direct, special, indirect, consequential or incidental damages or other damages of any kind whatsoever arising out of the use or inability to use Stock Bazaar Expert (“the Website”) for any purpose whatsoever even if Stock Bazaar Expert or any other such party has been advised of the possibility thereof. Stock Bazaar Expert and its owner, officers, directors, employees and agents shall have no liability in tort, contract, or otherwise to the user and/or any third party. This limitation on liability includes, but is not limited to, the transmission of any viruses which may infect a user’s equipment, failure of mechanical or electronic equipment or communication lines, telephone or other interconnect problems (e.g., you cannot access your internet service provider), unauthorized access, theft, operator errors, strikes or other labor problems or any force majeure. Stock Bazaar Expert cannot and does not guarantee continuous, uninterrupted or secure access to this web site.</p>
+
+					<p class="lead fw-bold lh-lg">LINKS TO THIRD PARTY SITES: –</p>
+
+					<p class="lead lh-lg">The links in this site will allow you to leave the Website. The linked sites are not under the control of the Website. The Website has not reviewed, nor approved these sites and is not responsible for the contents or omissions of any linked site or any links contained in a linked site. The inclusion of any linked site does not imply endorsement by Stock Bazaar Expert (“the Website”).</p>
+
+					<p class="lead fw-bold lh-lg">INDEMNIFICATION: –</p>
+
+					<p class="lead lh-lg">You shall indemnify, defend and hold harmless Stock Bazaar Expert (including its owner, officers, directors, employees, affiliates, group companies, agents, representatives or subcontractors) from any and all claims and losses imposed on, incurred by or asserted as a result of or related to: (a) your access and use of Stock Bazaar Expert (“the Website”) and/or the official mobile application of Stock Bazaar Expert firm, (b) any non-compliance by user with the terms and conditions hereof; or (c) any third party actions related to users receipt and use of the information, whether authorized or unauthorized. Any clause declared invalid shall be deemed severable and not affect the validity or enforceability of the remainder. These terms may only be amended in a writing signed by Stock Bazaar Expert. If Stock Bazaar Expert takes action (by itself) to enforce any of the provisions of this User Agreement, including collection of any amounts due hereunder, Stock Bazaar Expert shall be entitled to recover from you (and you agree to pay), in addition to all sums to which it is entitled or any other relief, at law or in equity, reasonable and necessary attorney’s fees and any costs of any litigation.</p>
+
+					<p class="lead fw-bold lh-lg">ENTIRE AGREEMENT</p>
+
+					<p class="lead lh-lg">This User Agreement constitutes the entire agreement between the parties and is inclusive of any other written agreement existing between you and Stock Bazaar Expert and Research Services. By using the information on <a href="https://www.stockbazaarexpert.in">www.stockbazaarexpert.in</a> (“the Website”) and/or the official mobile application of Stock Bazaar Expert and Research Services firm, you assume full responsibility for any gains and losses, financial, emotional, or otherwise, experienced, suffered, or incurred by you. <a href="https://www.stockbazaarexpert.in">www.stockbazaarexpert.in</a> (“the Website”) and/or the official mobile application of Stock Bazaar Expert and Research Services firm does not guarantee the accuracy, completeness or timeliness of, or otherwise endorse in any way, the views, opinions, or recommendations expressed in the Information, does not give investment advice and does not advocate the purchase or sale of any security or investment by you or any other individual. The Information is not intended to provide tax, legal, or investment advice, which you should obtain from your professional advisor before making any investment of the type discussed in the Information. The Information does not constitute a solicitation by the information providers, <a href="https://www.stockbazaarexpert.in">www.stockbazaarexpert.in</a> (“the Website”) and/or the official mobile application of Stock Bazaar Expert and Research Services firm or any other platform for the purchase or sale of securities. The service is provided “as is,” without warranty of any kind, either express or implied, including without limitation, any warranty for information, data, services, uninterrupted access, provided through or in connection with the service. Specifically, <a href="https://www.stockbazaarexpert.in">www.stockbazaarexpert.in</a> (“the Website”) and/or the official mobile application of Stock Bazaar Expert and Research Services firm disclaims any warranties, including, but not limited to (i) any warranties concerning the availability, accuracy, usefulness, or content of information, products or services; and (ii) any warranties of title, warranty of non-infringement, warranties of merchantability or fitness for a particular purpose. This disclaimer of liability applies to any damages or injury caused by any failure of performance, error, omission, interruption, deletion, defect, delay in operation or transmission, computer virus, communication line failure, theft or destruction or unauthorized access to, alteration of, or use of record, whether for breach of contract, tort, negligence, or under any other cause of action. Neither <a href="https://www.stockbazaarexpert.in">www.stockbazaarexpert.in</a> (“the Website”) and/or the official mobile application of Stock Bazaar Expert and Research Services firm nor any of its owners, employees, agents, successors, assigns, affiliates, group companies, or content or service providers shall be liable to you or another third party for any direct, indirect, incidental, special or consequential damages arising out of the use of service or inability to gain access to or use the service or out of any breach of any warranty. Because some countries do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you. In such countries, the respective liability of Stock Bazaar Expert and Research Services firm, <a href="https://www.stockbazaarexpert.in">www.stockbazaarexpert.in</a> (“the Website”) and/or the official mobile application of Stock Bazaar Expert and Research Services firm, its owner, employees, agents, successors, assigns, affiliates, group companies, and content or service providers respective liability is limited to the amount provided under said law. Further, you agree and understand that all services provided are non-refundable and that you should carefully consider whether our services can meet your needs. Transactions between users of this site and Stock Bazaar Expert and Research Services shall be governed by and construed by the Securities and Exchange Board of India (“SEBI”) Regulations and laws of India, without regard to the laws regarding conflicts of law. Any litigation regarding this agreement or any transaction between the customer and Stock Bazaar Expert and Research Services or any action at law or in equity arising out of or relating to this agreement or transaction shall be filed only in the Competent Courts of Thane, Maharashtra and the customer hereby acknowledges, agrees, consents and submits to the jurisdiction of such courts to litigate any such action.</p>
+
+					<p class="lead fw-bold lh-lg">JURISDICTION</p>
+
+					<p class="lead lh-lg">The terms of this agreement are exclusively based on and subject to Indian law. You hereby consent to the exclusive jurisdiction and venue of courts in Thane, Maharashtra, India in all disputes arising out of or relating to the use of this website. Use of this website is unauthorized in any jurisdiction that does not give effect to all provisions of these terms and conditions, including without limitation this paragraph.</p>
+
+					<p class="lead fw-bold lh-lg">CODE OF ETHICS AND CONDUCT</p>
+
+					<p class="lead lh-lg">Copyright <i class="bi bi-c-circle"></i> ”2023” Stock Bazaar Expert and Research Services</p>
+
+					<ul class="lead lh-lg">
+						<li>Ownership of copyright</li>
+					</ul>
+
+					<p class="lead lh-lg">The copyright in this website and the material on this website (including without limitation the text, artwork, photographs, images, music, audio material, video material, and audio-visual material on this website) is owned by Stock Bazaar Expert and Research Services and its licensors.</p>
+
+					<ul class="lead lh-lg">
+						<li>Copyright license</li>
+					</ul>
+
+					<p class="lead lh-lg">Stock Bazaar Expert and Research Services grant you a non-exclusive royalty-free revocable license to:</p>
+
+					<p class="lead lh-lg">View this website and the material on this website on a computer or mobile device via a web browser.</p>
+
+					<p class="lead lh-lg">Copy and store this website and the material on this website in your web browser cache memory.</p>
+
+					<p class="lead lh-lg">Print pages from this website for your personal non-commercial use.</p>
+
+					<p class="lead lh-lg">Stock Bazaar Expert and Research Services do not grant you any other rights about this website or the material on this website. In other words, all other rights are reserved.</p>
+
+					<p class="lead lh-lg">For the avoidance of doubt, you must not adapt, edit, change, transform, republish, redistribute, broadcast, or show or play in public this website or the material on this website (in any form or media) without Stock Bazaar Expert and Research Services prior written permission. You may request permission by writing to <a href="mailto:compliance@stockbazaarexpert.in">compliance@stockbazaarexpert.in</a></p>
+
+					<ul class="lead lh-lg">
+						<li>Data mining</li>
+					</ul>
+
+					<p class="lead lh-lg">The automated and/or systematic collection of data from this website is prohibited.</p>
+
+					<ul class="lead lh-lg">
+						<li>Enforcement of copyright</li>
+					</ul>
+
+					<p class="lead lh-lg">Stock Bazaar Expert and Research Services firm takes the protection of its copyright materials very seriously. If Stock Bazaar Expert and Research Services firm discovers that you have used our copyright materials in contravention of the license above, Stock Bazaar Expert and Research Services may bring legal proceedings against you for an injunction to stop you from using those materials and monetary damages. You could also be ordered to pay our legal costs. If you become aware of any use of Stock Bazaar Expert and Research Services copyright materials that contravenes or may contravene the license above, please let us know by email at <a href="mailto:compliance@stockbazaarexpert.in">compliance@stockbazaarexpert.in</a></p>
+
+					<ul class="lead lh-lg">
+						<li>Infringing material</li>
+					</ul>
+
+					<p class="lead lh-lg">If you become aware of any material on the website that you believe infringes your or any other person’s copyright, please let us know by email at <a href="mailto:compliance@stockbazaarexpert.in">compliance@stockbazaarexpert.in</a></p>
+
+					<p class="lead fw-bold lh-lg">Before you start trading</p>
+
+					<table class="table lead lh-lg">
+						<thead>
+							<tr>
+								<th width="50%">DO</th>
+								<th width="50%">DON’T</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Assess the risk-return proﬁle of the investment as well as the liquidity and safety aspects before making and/or acting upon your investment decision</td>
+								<td>Don’t trade in any product without knowing and/or understanding the associated risks and rewards</td>
+							</tr>
+							<tr>
+								<td>Make investments based on sound reasoning, after taking into account all publicly available information. You may access the websites of Companies and Regulators for this information</td>
+								<td>Don’t get inﬂuenced by information that does not originate from an appropriate source</td>
+							</tr>
+							<tr>
+								<td>Make all payments in the form of cheque/online transfer in the name Stock Bazaar Expert and Research Services only</td>
+								<td>Don’t get inﬂuenced into buying fundamentally unsound companies (penny stocks) based on sudden spurts in trading volumes or prices or non-authentic favorable looking articles/stories</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Don’t match/synchronize trades with any other person for any thinly traded shares</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Don’t indulge in any trading activity which results in the disturbance of market equilibrium in any manner including manipulation of the price of any scrips</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Don’t get carried away by luring advertisements, if any</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Don’t make a cash payment or issue a cheque in the name of any employee of Stock Bazaar Expert and Research Services or any other person in respect of the transactions</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Don’t issue blank/bearer cheques to anyone</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p class="lead fw-bold lh-lg">Secure Fund Transfer</p>
+
+					<ul class="list-group list-group-numbered lead lh-lg">
+						<li class="list-group-item border-0 bg-transparent">Payment for all research services should be made in the current account of Stock Bazaar Expert and Research Services only. No payment should be made in any account of an employee/associate of Stock Bazaar Expert and Research Services or any other individual in any condition</li>
+						<li class="list-group-item border-0 bg-transparent">In case of payment through Pay Order, Demand Draft, Banker’s cheque, NEFT or RTGS; provide the following proof of payment</li>
+					</ul>
+
+					<ul class="lead lh-lg">
+						<li>Certificate from the issuing bank on its letterhead or a plain paper with the seal of the issuing bank</li>
+						<li>Certified copy of the requisition slip (portion which is retained by the bank) to issue the instrument</li>
+						<li>Certified copy of the passbook/bank statement for the account debited to issue the instrument</li>
+						<li>Authentication of the bank account number debited and name of the account holder by the issuing bank on the reverse of the instrument</li>
+					</ul>
+
+					<ul class="list-group list-group-numbered lead lh-lg">
+						<li class="list-group-item border-0 bg-transparent">Track your ledger regularly to check the credit for payment of funds</li>
+					</ul>
+
+					<p class="lead fw-bold lh-lg">GENERAL PRACTISE WHILE YOU TRADE</p>
+
+					<table class="table lead lh-lg">
+						<thead>
+							<tr>
+								<th width="50%">DO</th>
+								<th width="50%">DON’T</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Give unambiguous instructions to your broker while placing orders over the phone with your broker.</td>
+								<td>In any circumstance, do not reveal your login credentials to any other person, not even a Stock Bazaar Expert and Research Services representative</td>
+							</tr>
+							<tr>
+								<td>You will be solely responsible for all transactions effected by internet trading. Therefore, change your password every fortnight</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Be aware of the risk associated with the asset classes you are trading in the market and margin calls on them. In case of inadequate margin or non-payment of margin in your account, your positions will be squared off by the Risk Management team of your broker.</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Maintain adequate margins at all points of time. In case of margin shortfall or delay in payments, your outstanding position will be squared up by your broker.</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p class="lead fw-bold lh-lg">HOW CAN YOU STAY PROTECTED AT ALL TIMES?</p>
+
+					<table class="table lead lh-lg">
+						<thead>
+							<tr>
+								<th width="50%">DO</th>
+								<th width="50%">DON’T</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Forward suspicious emails asking for sensitive information to <a href="mailto:compliance@stockbazaarexpert.in">compliance@stockbazaarexpert.in</a></td>
+								<td>Do not reveal your personal information Customer IDs, Passwords, and One Time Passwords (OTP) to anybody over the phone, on the internet, or via email</td>
+							</tr>
+							<tr>
+								<td>Write to us at <a href="mailto:compliance@stockbazaarexpert.in">compliance@stockbazaarexpert.in</a>, if you notice a duplicate Stock Bazaar Expert and Research Services or webpage</td>
+								<td>Do not open or click on attachments included in emails from organizations or people you don’t know</td>
+							</tr>
+							<tr>
+								<td>Call us on 9876543210 right away, if you’ve provided sensitive account information to an unauthorized person, or to report a fraud</td>
+								<td>Do not enable the ‘Auto Run’ feature in Windows systems</td>
+							</tr>
+							<tr>
+								<td>Install and update good-quality antivirus software</td>
+								<td>Use an unlicensed operating system or one that hasn’t been updated regularly</td>
+							</tr>
+							<tr>
+								<td>Use only devices (like USBs, external hard drives, and smartphones) that you completely trust.</td>
+								<td>Use an outdated web browser or one that isn’t up to date</td>
+							</tr>
+							<tr>
+								<td>Exercise caution when using the internet in public places such as internet cafes and airport lounges</td>
+								<td>Do not divulge personal information on social</td>
+							</tr>
+							<tr>
+								<td>Type the entire Stock Bazaar Expert and Research Services address (<a href="https://stockbazaarexpert.in/">https://stockbazaarexpert.in/</a>) into your browser to avoid being misdirected to a bogus site when you use the search option.</td>
+								<td>Do not disclose personal or business information via a website link attached to an email</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Do not trust a site appearing to belong to Stock Bazaar Expert and Research Services if it doesn’t start with the ‘HTTPS’ preﬁx and doesn’t have a padlock symbol</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p class="lead fw-bold lh-lg">CUSTOMER AWARENESS OF SECURITY</p>
+
+					<p class="lead lh-lg">Let’s face it, hackers are smart, and they’re only getting better by the minute. So, while we work hard to keep the bad guys at bay, here’s what you can do to stay protected at all times.</p>
+
+					<ul class="list-group list-group-numbered lead lh-lg">
+						<li class="list-group-item border-0 bg-transparent">Beware of fraud</li>
+					</ul>
+
+					<ul class="lead lh-lg">
+						<li>Don’t provide personal information such as Customer IDs, Passwords, and One Time Passwords (OTP) to anybody over the phone, on the internet, or via email</li>
+						<li>Don’t open or click on attachments included in emails from organizations or people you don’t know</li>
+					</ul>
+
+					<ul class="list-group list-group-numbered lead lh-lg">
+						<li class="list-group-item border-0 bg-transparent">How to detect a fake email or website</li>
+					</ul>
+
+					<ul class="lead lh-lg">
+						<li>A message stating that your account may have been compromised, and asking for personal information</li>
+						<li>An email promising prize money for completing a survey or answering questions that compel you to reveal personal information</li>
+						<li>An email directing you to a fake website designed to look like the real thing</li>
+					</ul>
+
+					<ul class="list-group list-group-numbered lead lh-lg">
+						<li class="list-group-item border-0 bg-transparent">How fraudsters may try to trick you</li>
+						<ul class="lead lh-lg ms-4">
+							<li>Phishing: These are fake emails that appear to be sent by a credible source to compel you to reveal personal information, which can then be used to commit fraud</li>
+							<li>Vising: These are phone calls by people pretending to work for Stock Bazaar Expert and Research Services or another legitimate business, asking you to reveal personal information</li>
+							<li>Trojan / Virus: These are programs inadvertently installed on your computer to steal your sensitive information, spy on you, or cause a security breach: These are SMS text messages that urge you to call a number to a seemingly potential fraud</li>
+							<li>Ransom ware: This refers to malware that infects your computer, blocks access to your files, and demands money from you to access your files once again</li>
+							<li>Spyware: This is a type of software that secretly monitors activity on your computer and reports back to the fraudster, who then uses the information to access your accounts</li>
+						</ul>
+					</ul>
+
+					<ul class="list-group list-group-numbered lead lh-lg">
+						<li class="list-group-item border-0 bg-transparent">How you can secure your passwords</li>
+					</ul>
+
+					<ul class="lead lh-lg">
+						<li>Here’s how you can keep your passwords from falling into the wrong hands:</li>
+						<li>Ignore requests from organizations or individuals requesting you to verify your passwords or PINs, as no reputable financial organization does that</li>
+						<li>Memories your passwords instead of writing them down, and don’t share them with anybody</li>
+						<li>Remember to change your passwords every 90 days or less</li>
+						<li>Use a combination of letters, numbers, and special characters, with a mix of upper- and lower-case letters to make your passwords more secure</li>
+						<li>Avoid using family names, names of pets, and important dates</li>
+						<li>Avoid using common names or words in foreign languages to create your passwords</li>
+					</ul>
+
+					<ul class="list-group list-group-numbered lead lh-lg">
+						<li class="list-group-item border-0 bg-transparent">How we’re working to keep you safe</li>
+					</ul>
+
+					<ul class="lead lh-lg">
+						<li>Security Implementations: All our systems are secured using effective security solutions like firewalls, intrusion detection systems, intrusion prevention systems, and anti-malware systems.</li>
+						<li>Website Certificate: The SSL Certificate provides clear visual indicators of a green address bar. The green address bar /padlock verifies that the website belongs to the organization it claims to be from. As soon as the website URL address bar becomes green, customers can be assured it is a genuine website. Do not log in to the website who’s Padlock or address bar turn’s red or appears broken.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <footer class="section-padding-80 text-bg-dark">
+        <div class="container">
+            <div class="row gy-5 justify-content-center mb-5">
+                <div class="col-xxl-3 col-xl-12 col-lg-12 col-md-12">
+                    <img src="assets/img/logo2-white.png" width="250" class="img-fluid d-block mx-auto shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5">
+                    <h4 class="fw-bold mb-4">Quick Links</h4>
+                    <div class="list-group">
+                        <a href="./" class="list-group-item bg-transparent border-0 px-0 pt-0">Home</a>
+                        <a href="wealth-management-services.html"
+                            class="list-group-item bg-transparent border-0 px-0 pt-0">Wealth Management Services</a>
+                        <a href="portfolio-management-services.html"
+                            class="list-group-item bg-transparent border-0 px-0 pt-0">Portfolio Management Services</a>
+                        <a href="contact-us.html" class="list-group-item bg-transparent border-0 px-0 pt-0">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                    <h4 class="fw-bold mb-4">Connect with us</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 px-0 pt-0 mb-2">
+                            <div class="d-table">
+                                <span class="d-table-cell"><i class="bi bi-geo-alt-fill text-secondary fs-4 align-middle me-3"></i></span>
+                                <span class="d-table-cell">Sector - 1, Ghansoli, Navi Mumbai, Mumbai, Maharashtra, India.</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 px-0 pt-0 mb-2">
+                            <div class="d-table">
+                                <span class="d-table-cell"><i class="bi bi-telephone-fill text-secondary fs-4 align-middle me-3"></i></span>
+                                <span class="d-table-cell">
+                                      <a href="tel:+917045329073" class="pb-2">91 7045329073</a><br>
+                                      
+                                  	</span>
+                            </div>
+                        </li>
+						<a href="mailto:support@quantsventure.com" class="list-group-item bg-transparent border-0 px-0 pt-0">
+							<div class="d-table">
+							  <span class="d-table-cell"><i class="bi bi-envelope-fill text-secondary fs-4 align-middle me-3"></i></span>
+							  <span class="d-table-cell">support@quantsventure.com</span>
+							</div>
+						  </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row gy-5 justify-content-center copyrights">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                    <div class="fw-medium text-center">Copyright&nbsp;<i class="bi bi-c-circle fs-6 me-1 align-middle"></i>
+                        <span id="copy-year"></span>.
+                        <b class="fw-bold">Quants Venture - Stock Broking</b>&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved.
+                    </div>
+                </div>
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                    <h4 class="text-center">Follow Us:</h4>
+                    <div class="list-group list-group-horizontal justify-content-center">
+                        <a href="https://www.facebook.com/profile.php?id=61551530296003&mibextid=ZbWKwL" target="_blank"
+                            class="list-group-item list-group-item-action ps-0 pe-3 w-auto bg-transparent border-0 link-light">
+                            <i class="bi bi-facebook fs-4"></i>
+                        </a>
+                        <a href="https://instagram.com/quants_venture_stock_broking?igshid=NGVhN2U2NjQ0Yg==" target="_blank"
+                            class="list-group-item list-group-item-action ps-0 pe-3 w-auto bg-transparent border-0 link-light">
+                            <i class="bi bi-instagram fs-4"></i>
+                        </a>
+                        <a href="#"
+                            class="list-group-item list-group-item-action ps-0 pe-3 w-auto bg-transparent border-0 link-light">
+                            <i class="bi bi-twitter fs-4"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/quants-venture-729661296" target="_blank"
+                            class="list-group-item list-group-item-action ps-0 pe-3 w-auto bg-transparent border-0 link-light">
+                            <i class="bi bi-linkedin fs-4"></i>
+                        </a>
+                        <a href="#"
+                            class="list-group-item list-group-item-action ps-0 pe-3 w-auto bg-transparent border-0 link-light">
+                            <i class="bi bi-youtube fs-4"></i>
+                        </a>
+                        <a href="https://wa.me/917045329073" target="_blank"
+                            class="list-group-item list-group-item-action ps-0 pe-3 w-auto bg-transparent border-0 link-light">
+                            <i class="bi bi-whatsapp fs-4"></i>
+                        </a>
+                        <a href="https://t.me/+za-GD_5_FChjYjQ1" target="_blank"
+                            class="list-group-item list-group-item-action ps-0 pe-3 w-auto bg-transparent border-0 link-light">
+                            <i class="bi bi-telegram fs-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	<a href="https://wa.me/917045329073" target="_blank" id="whatsapp-icon" class="animate__animated animate__pulse animate__infinite animate__fast png-shadow">
+        <img src="assets/img/whatsapp.png" class="img-fluid" width="50">
+    </a>
+
+	<a href="#" id="scroll-top" class="btn shadow border rounded-circle">
+        <i class="bi bi-chevron-up fs-5"></i>
+    </a>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
